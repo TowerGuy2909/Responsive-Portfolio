@@ -1,8 +1,11 @@
-.navigation{
+.contactsPage{
+	background-color: rgb(114, 207, 250);
+}
+.navigationColumn{
 	background-color: rgb(250, 225, 114);
 	
 }
-.mainContent{
+.featuredPage{
 	background-color: rgb(35, 180, 120);
 	height: 75px;
 }
