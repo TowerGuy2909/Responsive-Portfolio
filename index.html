@@ -81,7 +81,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 mt-5">
-				<div class="navigation">
+				<div class="navigationColumn">
 					<div class="row my-3">
 						<img />
 					</div>
@@ -98,13 +98,38 @@
 			</div>
 
 			<div class="col-md-9 mt-5">
-				<div class=" mainContent">
+				<div class=" featuredPage">
 
 				</div>
 			</div>
 		</div>
+	
+		<div class="row">
+			<div class=" col-md-12 contactsPage">
+				<form id="contact-form" action="script.php" method="post">
+					<input type="hidden" name="redirect" value="http://www.examples.com" />
+					<ul>
+						<li>
+							<label class="form-label" for="name">Name:</label><br>
+							<input class="form-input" placeholder="John Smith" type="text" name="name" id="name" value="" />
+						</li>
+						<li>
+							<label class="form-label" for="email">Email:</label><br>
+							<input class="form-input" placeholder="example@gmail.com" type="text" name="email" id="email" value="" />
+						</li>
+						<li>
+							<label class="form-label" for="comments">Comments:</label><br>
+							<textarea class="form-input" name="comments" id="comments" cols="25" rows="3"></textarea>
+						</li>
+						<li>
+							<input class="submit-button" type="submit" value="Submit" />
+							<!-- <input type="reset" value="reset" /> -->
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
 	</div>
-
 </body>
 
 </html>
