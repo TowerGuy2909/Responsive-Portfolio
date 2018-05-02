@@ -1,14 +1,18 @@
 .contactsPage{
 	background-color: rgb(114, 207, 250);
 }
-.navigationColumn{
-	background-color: rgb(250, 225, 114);
-	
+.generalProjectsImages{
+	height: 150px;
+	width: 150px;
 }
 .featuredPage{
 	background-color: rgb(35, 180, 120);
-	height: 75px;
+	height: 500px;
 }
 .image{
+	
+}
+.navigationColumn{
+	background-color: rgb(250, 225, 114);
 	
 }
