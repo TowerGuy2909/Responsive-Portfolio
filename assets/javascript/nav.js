@@ -10,7 +10,7 @@ $('.aboutMe, .featuredPage, .generalProjectsImages, .contactsPage').each(functio
 // // When a link is clicked, hide the currently visible page and display the clicked pg
 
 hideAllDiv();
-$('#landingPage').show();
+$('.featuredPage').show();
 
 $(document).on("click", '.nav-link', function() {
    hideAllDiv();
