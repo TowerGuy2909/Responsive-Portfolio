@@ -10,7 +10,6 @@
 }
 .featuredPage{
 	background-color: rgb(35, 180, 120);
-	height: 500px;
 }
 .navColumnImage{
 	width: 50px;
@@ -18,5 +17,7 @@
 }
 .navigationColumn{
 	background-color: rgb(250, 225, 114);
-	
+	font-family: Poppins ;
+	font-weight: 300;
+	font-size: 16px;
 }
