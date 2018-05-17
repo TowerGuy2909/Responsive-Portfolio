@@ -1,174 +1,392 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Jerridd Speidel's Portfolio</title>
+<html lang="en">
 
-</head>
+  <head>
 
-<!-- <link rel="stylesheet" type="text/css"  href="assets/css/reset.css"> -->
-<link rel="stylesheet" type="text/css"  href="assets/css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <title>Jerridd Speidel Portfolio</title>
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
-<!-- Google fonts link-->
-<link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
 
-<body>
+  </head>
 
-	<!-- 
+  <body id="page-top">
 
-	There is going to be two main elements with the portfolio, a navigation column on the left
-	that will take up the left 4th of the screen and the main content portion which will take up 
-	3/4ths from of the right part of the screen.
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Jerridd Speidel</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#featuredProjects">Featured Projects</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#generalProjects">General Projects</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About Me</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-	In the navigation column it will have a profile picture, featured items, general projects, about me
-	and a contact links page.
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+        <img class="img-fluid mb-5 d-block mx-auto proPic" src="img/profilePic.gif" alt="">
+        <h1 class="text-uppercase mb-0">Jerridd Speidel</h1>
+        <hr class="star-light">
+        <h2 class="font-weight-light mb-0">Full Stack Web Developer - Graphic Artist</h2>
+      </div>
+    </header>
 
-	The main content will display the featured projects as a large picture the size of the main content,
-	with a discription box within the large image with a link to the repo. General projects, which
-	have 3 colums of images of the running projects with a name that appears when hovered. A paragraph
-	for the About me with another image or set of images and contact links on the contact page,
-	linking to various ways to contact me, including twitter, facebook, google+, github and email.
-	
-	Navigation column
-		profile pic
-			small, saved image in the images folder
-		featured projects link
-			changes main content to group projects slide show
-		general projects link
-			changes main content to general projects scrollable column
-		About me link
-			links to picture or pictures of me,
-			a paragraph or two about me
-		contacts page link
-			links to page speaking of how to contact me with links,
-	Main Content
-		large feature project picture
-			pictures of the 3 group projects done from class,
-				scolls right to loop through group projects,
-					dots on the bottom of the image to select,
-					scroll through quicker with mouse,
-				Has a discription box floating inside the box,
-					click name of image to go to the github repo,
-		3 column general project pictures
-			static page through the genral projects
-				each projects name and tech is revealed when hovering,
-					click name of image to go to the github repo,
-				scrolls down with the mouse to a whole new set,
-		About me page
-			image of me
-			a brief discription talking about what i know and want to do
-		contacts page
-			an image of me
-			a brief discription of where i can be found
-			links to various ways to contact me.
-				twitter
-				linkedIn
-				facebook
-				google+
-				email
-				github
-				
-	-->
+    <!-- featured projects Grid Section -->
+    <section class="portfolio" id="featuredProjects">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Featured Projects</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+              <div class="col-md-6 col-lg-4">
+                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+                  <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                      <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="img/portfolio/newFlicFeasPic.PNG" alt="">
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                      <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                      </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/newFabPic.PNG" alt="">
+                  </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+                      <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                          <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                      </div>
+                      <img class="img-fluid" src="img/portfolio/newHeaTraPic.PNG" alt="">
+                    </a>
+                  </div>
+              
+            </div>
+          </div>
+        </section>
 
-	<div class="container">
-		<div class="row align-items-center ">
-			<div class="col-md-2 mt-5  vertical-center align-items-center ">
-				<div class="navigationColumn  ">
-					<div class="row ">
-						<a href="#" class="d-flex flex-column text-center mb-3 col " data-page=".featuredPage">Featured</a>
-						<a href="#" class="d-flex flex-column text-center  mb-3 col " data-page=".generalProjectsImages">generalProjects</a>
-						<a href="#" class="d-flex flex-column text-center mb-3 col " data-page=".contactsPage">Contact</a>
-						<a href="#" class="d-flex flex-column text-center   mb-3 col " data-page=".aboutMe">AboutMe</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-10 my-5  vertical-center">
-				<div class=" featuredPage">
-					<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-							<li data-target="#carouselIndicators" data-slide-to="1"></li>
-							<li data-target="#carouselIndicators" data-slide-to="2"></li>
-						</ol>
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-							<img class="d-block w-100" src="assets/images/fabulistPicture.PNG" alt="First slide">
-							</div>
-							<div class="carousel-item">
-							<img class="d-block w-100" src="assets/images/flickzAndFeastPicture.PNG" alt="Second slide">
-							</div>
-							<div class="carousel-item">
-							<img class="d-block w-100" src="assets/images/healthTrackerPicture.PNG" alt="Third slide">
-							</div>
-						</div>
-						<a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</div>
-				</div>
-				
-				<div>
-					<img class="generalProjectsImages" src="assets/images/psychicGamePicture.PNG" />
-				</div>
-				
 
-				<div class="contactsPage">
-					<form id="contact-form" action="script.php" method="post">
-						<input type="hidden" name="redirect" value="http://www.examples.com" />
-						<ul>
-							<li>
-								<label class="form-label" for="name">Name:</label><br>
-								<input class="form-input" placeholder="John Smith" type="text" name="name" id="name" value="" />
-							</li>
-							<li>
-								<label class="form-label" for="email">Email:</label><br>
-								<input class="form-input" placeholder="example@gmail.com" type="text" name="email" id="email" value="" />
-							</li>
-							<li>
-								<label class="form-label" for="comments">Comments:</label><br>
-								<textarea class="form-input" name="comments" id="comments" cols="25" rows="3"></textarea>
-							</li>
-							<li>
-								<input class="submit-button" type="submit" value="Submit" />
-								<!-- <input type="reset" value="reset" /> -->
-							</li>
-						</ul>
-					</form>
-				</div>
+    <!-- general projects Grid Section -->
+    <section class="portfolio" id="generalProjects">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">General Projects</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/psychicGamePicture.PNG" alt="">
+            </a>
+          </div>
+         
+          
+        </div>
+      </div>
+    </section>
 
-				<div class="aboutMe">
-						<p>
-								What is Lorem Ipsum?
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-								when an unknown printer took a galley of type and scrambled it to make a type
-								specimen book. It has survived not only five centuries, but also the leap 
-								into electronic typesetting, remaining essentially unchanged. It was 
-								popularised in the 1960s with the release of Letraset sheets containing 
-								Lorem Ipsum passages, and more recently with desktop publishing software like 
-								Aldus PageMaker including versions of Lorem Ipsum.
-						</p>
-				</div>
-			</div>
-		</div>
-	</div>
-<script type="text/javascript" src="assets/javascript/nav.js"></script>
-</body>
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">About Me</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">A full-stack web developer with a true desire to create and knowledge in technologies like the MERN stack(mongo, express, react and node) and several others like HTML, CSS, Bootstrap, Javascript, Google API, AJAX, mySQL, GitHub, NPM, Google Firebase, MAC & PC operating systems</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">A graphic designer with experience in Microsoft Office Suite (Word, Excel, PowerPoint), Adobe Creative Suite (Photoshop, Illustrator, InDesign, Acrobat) , QuarkXpress. Designed special communication projects, unique branding  and creative planning and brainstorming solutions. </p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Contact</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Name</label>
+                  <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Email Address</label>
+                  <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Phone Number</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Message</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+            
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Find Me</h4>
+            <ul class="list-inline mb-0">
+              <!-- <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-facebook"></i>
+                </a>
+              </li> -->
+              <!-- <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-google-plus"></i>
+                </a>
+              </li> -->
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/jspeidel">
+                  <i class="fa fa-fw fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/jerridd-speidel/">
+                  <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                  <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/TowerGuy2909">
+                    <i class="fa fa-fw fa-github"></i>
+                  </a>
+                </li>
+              <!-- <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-dribbble"></i>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+         
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy; Jerridd Speidel Portfolio 2018</small>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">The Psychic Game</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/psychicGamePicture.PNG" alt="">
+              <p class="mb-5">A very simplistic game designed with basic html, css and javascript. The goal is to guess the random number the computer has generated with in 10 guesses to win.</p>
+              <a class="btn btn-primary btn-lg rounded-pill " href="https://towerguy2909.github.io/psychicGame/">
+                
+                Run App</a>
+              <a class="btn btn-primary btn-lg rounded-pill " href="https://github.com/TowerGuy2909/psychicGame">
+                
+                Git Repo</a>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                  <i class="fa fa-close"></i>
+                Back</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Portfolio Modal 2 -->
+     <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+        <div class="portfolio-modal-dialog bg-white">
+          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+            <i class="fa fa-3x fa-times"></i>
+          </a>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-secondary text-uppercase mb-0">Flicks & Feast</h2>
+                <hr class="star-dark mb-5">
+                <img class="img-fluid mb-5" src="img/portfolio/newFlicFeasPic.PNG" alt="">
+                <p class="mb-5">Friends get together every 2 weeks to have dinner and a movie and we’d like a better way to track which films were watched on what dates and who was hosting.</p>
+                <a class="btn btn-primary btn-lg rounded-pill " href="#">
+                  <i class="fa fa-close"></i>
+                  Run App</a>
+                  
+                <a class="btn btn-primary btn-lg rounded-pill " href="https://github.com/ejstraband/filmzAndFeasts">
+                  Git Repo</a>
+
+                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                    <i class="fa fa-close"></i>
+                  Back</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+        <div class="portfolio-modal-dialog bg-white">
+          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+            <i class="fa fa-3x fa-times"></i>
+          </a>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-secondary text-uppercase mb-0">Fabulist</h2>
+                <hr class="star-dark mb-5">
+                <img class="img-fluid mb-5" src="img/portfolio/newFabPic.PNG" alt="">
+                <p class="mb-5">a collaborative story telling game in the style of Exquisite Corpse, the parlor game Consequences and Mad Libs. Any number of people can play. Fabulist is a game where participants take turns writing paragraphs of a story. If a player wants, they can draw an illustration in their turn instead of writing a paragraph. After each player has gone three times, Fabulist stitches the parts together into one story. Hilarity ensues.</p>
+                <a class="btn btn-primary btn-lg rounded-pill " href="#">
+                  <i class="fa fa-close"></i>
+                  Run App</a>
+
+                <a class="btn btn-primary btn-lg rounded-pill " href="https://github.com/rami0141/Fabulist">
+                  Git Repo</a>
+
+                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                    <i class="fa fa-close"></i>
+                  Back</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+        <div class="portfolio-modal-dialog bg-white">
+          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+            <i class="fa fa-3x fa-times"></i>
+          </a>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-secondary text-uppercase mb-0">Health Tracker</h2>
+                <hr class="star-dark mb-5">
+                <img class="img-fluid mb-5" src="img/portfolio/newHeaTraPic.PNG" alt="">
+                <p class="mb-5">A MERN stack application that allows you to log and keep track of your health information all in one place so that you can easily share and discuss that information with your doctor at your next visit.</p>
+                <a class="btn btn-primary btn-lg rounded-pill " href="https://myhealthtracker.herokuapp.com/">
+                  Run App</a>
+
+                <a class="btn btn-primary btn-lg rounded-pill " href="https://github.com/philipstubbs13/MedLog">
+                  Git Repo</a>
+
+                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                    <i class="fa fa-close"></i>
+                  Back</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+
+  </body>
 
 </html>
